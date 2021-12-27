@@ -1,57 +1,52 @@
 /*=============== GOOGLE FONTS ===============*/
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root{
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-
-  --first-color: ;
-  --first-color-light: ;
-  --first-color-lighten: ;
-  --first-color-alt: ;
-  --title-color: ;
-  --text-color: ;
-  --text-color-light: ;
-  --body-color: ;
-  --container-color: ;
-  --scroll-bar-color: ;
-  --scroll-thumb-color: ;
+  --first-color: #1F5A78;
+  --first-color-light: #63afd4;
+  --first-color-lighten: #a2d5ee;
+  --title-color: #252728;
+  --text-color: #889094;
+  --body-color: #fff;
+  --container-color: #fff;
   
 
   /*========== Font and typography ==========*/
-  --body-font: ;
+  --body-font: 'Poppins', sans-serif;
 
-  --biggest-font-size: ;
-  --h2-font-size: ;
-  --h3-font-size: ;
-  --normal-font-size: ;
-  --small-font-size: ;
-  --smaller-font-size: ;
+  --biggest-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
 
   // Responsive typography
   @media screen and (min-width: 968px){
-      --biggest-font-size: ;
-      --h2-font-size: ;
-      --h3-font-size: ;
-      --normal-font-size: ;
-      --small-font-size: ;
-      --smaller-font-size: ;
-  }
+    --biggest-font-size: 3rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+}
 
-  /*========== Font weight ==========*/
-  --font-semi-bold: ;
-  --font-bold: ;
+/*========== Font weight ==========*/
+--font-semi-bold: 600;
+--font-bold: 700;
 
-  /*========== Margins ==========*/
-  --mb-0-5: ;
-  --mb-0-75: ;
-  --mb-1: ;
-  --mb-1-5: ;
-  --mb-2: ;
+/*========== Margins ==========*/
+--mb-0-5: .5rem;
+--mb-0-75: .75rem;
+--mb-1: 1rem;
+--mb-1-5: 1.5rem;
+--mb-2: 2rem;
 
-  /*========== z index ==========*/
-  --z-tooltip: ;
-  --z-fixed: ;
+/*========== z index ==========*/
+--z-tooltip: 10;
+--z-fixed:100 ;
 }
