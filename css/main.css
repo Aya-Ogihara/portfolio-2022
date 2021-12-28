@@ -6,7 +6,7 @@
   /*========== Colors ==========*/
   --first-color: #1F5A78;
   --first-color-light: #287196;
-  --first-color-lighten: #63afd4;
+  --first-color-lighten: #a2e0ff;
   --title-color: #252728;
   --text-color: #889094;
   --body-color: #fff;
@@ -85,7 +85,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 4.5rem 0 1rem;
+  padding: 4.125rem 0 1rem;
 }
 
 .section__title, .section__title-center {
@@ -214,7 +214,14 @@ img {
 }
 
 .home__img {
+  width: 200px;
+  -ms-grid-column-align: center;
+      justify-self: center;
   border-radius: 50%;
+}
+
+.home__data {
+  text-align: center;
 }
 
 .home__title {
@@ -257,6 +264,13 @@ img {
 .button-outline:hover {
   background-color: var(--first-color);
   color: #fff;
+}
+
+.button-submit {
+  border: none;
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  width: 160px;
 }
 
 /*=============== ABOUT ===============*/
@@ -356,9 +370,105 @@ img {
 }
 
 /*=============== CONTACT ===============*/
+.contact {
+  margin-bottom: var(--mb-2);
+}
+
+.contact__description {
+  text-align: center;
+}
+
+.contact__form {
+  gap: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.contact__field {
+  margin-bottom: var(--mb-1-5);
+  padding: 1rem 0.5rem;
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+}
+
 /*=============== FOOTER ===============*/
+.footer {
+  background-color: var(--first-color-lighten);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__social-link {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+.footer__copy {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color);
+}
+
 /*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  background-color: var(--first-color);
+  right: 1rem;
+  bottom: -20%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0.3rem;
+  border-radius: .25rem;
+  z-index: var(--s-tooltip);
+  opacity: .8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.scrollup:hover {
+  background-color: var(--first-color);
+  opacity: 1;
+}
+
+.scrollup__icon {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
 /* Show Scroll Up*/
+.show-scroll {
+  bottom: 3rem;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: var(--scroll-bar-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-color);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-color-light);
+}
+
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 /* For medium devices */

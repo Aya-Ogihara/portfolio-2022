@@ -1,1 +1,21 @@
 /*=============== CONTACT ===============*/
+.contact {
+  margin-bottom: var(--mb-2);
+
+  &__description {
+    text-align: center;
+  }
+
+  &__form {
+    gap: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  &__field {
+    margin-bottom: var(--mb-1-5);
+    padding: 1rem 0.5rem;
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+  }
+}

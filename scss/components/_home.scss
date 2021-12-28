@@ -5,7 +5,13 @@
   }
 
   &__img {
+    width: 200px;
+    justify-self: center;
     border-radius: 50%;
+  }
+
+  &__data {
+    text-align: center;
   }
 
   &__title {
@@ -17,4 +23,5 @@
   &__description {
     margin-bottom: var(--mb-2);
   }
+
 }
