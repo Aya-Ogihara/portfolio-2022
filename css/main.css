@@ -244,18 +244,6 @@ img {
   background-color: var(--first-color-light);
 }
 
-.button-flex {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-column-gap: .25rem;
-          column-gap: .25rem;
-  padding: 0.75rem 1rem;
-}
-
 .button-outline {
   display: inline-block;
   border: 1px solid var(--first-color);
@@ -273,6 +261,7 @@ img {
   color: #fff;
 }
 
+.button-flex,
 .button-outline-flex {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
