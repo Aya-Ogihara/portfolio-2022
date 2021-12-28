@@ -69,7 +69,7 @@
           <div class="about__content">
             <h2 class="section__title-center">About Me</h2>
             <p class="about__description">
-              Hello, I am Aya Ogihara. <br />
+              Welcome to my page! I am Aya Ogihara. <br />
               I am a front-end developer with a background in customer service.
               I'm passionate about bringing both the technical and visual
               aspects of digital products to life, and I enjoy keeping up to
@@ -85,7 +85,7 @@
           </div>
           <div class="about__content">
             <div>
-              <a href="#" class="button about__cv">View my CV</a>
+              <a href="#" class="button-outline about__cv">View my CV</a>
             </div>
             <h3 class="about__subtitle">Find me on</h3>
             <div class="about__social">
@@ -116,13 +116,13 @@
       <section class="skills">
         <div class="container skills__container grid">
           <i class="bx bxl-html5 skills__icon"></i>
-          <i class="bx bxl-html5 skills__icon"></i>
-          <i class="bx bxl-html5 skills__icon"></i>
-          <i class="bx bxl-html5 skills__icon"></i>
-          <i class="bx bxl-html5 skills__icon"></i>
-          <i class="bx bxl-html5 skills__icon"></i>
-          <i class="bx bxl-html5 skills__icon"></i>
-          <i class="bx bxl-html5 skills__icon"></i>
+          <i class="bx bxl-css3 skills__icon"></i>
+          <i class="bx bxl-javascript skills__icon"></i>
+          <i class="bx bxl-jquery skills__icon"></i>
+          <i class="bx bxl-react skills__icon"></i>
+          <i class="bx bxl-nodejs skills__icon"></i>
+          <i class="bx bxl-bootstrap skills__icon"></i>
+          <i class="bx bxl-figma skills__icon"></i>
         </div>
       </section>
 
@@ -130,7 +130,7 @@
       <section class="works section container" id="works">
         <h2 class="section__title-center">My Works</h2>
         <div class="works__container grid">
-          <div>
+          <div class="img-1">
             <img
               src="/img/nzwine.png"
               alt="nzWine top page"
@@ -146,10 +146,18 @@
             </p>
 
             <div class="works__buttons">
-              <a href="https://nzwine.herokuapp.com/" class="button" target="_blank">
+              <a
+                href="https://nzwine.herokuapp.com/"
+                class="button button-flex"
+                target="_blank"
+              >
                 <i class="bx bx-code-alt button__icon"></i>Live page
               </a>
-              <a href="https://github.com/Aya-Ogihara/MERN_nzWine" class="button-outline" target="_blank">
+              <a
+                href="https://github.com/Aya-Ogihara/MERN_nzWine"
+                class="button-outline button-outline-flex"
+                target="_blank"
+              >
                 <i class="bx bx-git-branch button__icon"></i>Repository
               </a>
             </div>
@@ -157,7 +165,7 @@
         </div>
 
         <div class="works__container grid">
-          <div>
+          <div class="img-2">
             <img
               src="/img/myflix.png"
               alt="my flix top page"
@@ -173,10 +181,18 @@
             </p>
 
             <div class="works__buttons">
-              <a href="https://myfilix-aya.netlify.app/" class="button" target="_blank">
+              <a
+                href="https://myfilix-aya.netlify.app/"
+                class="button button-flex"
+                target="_blank"
+              >
                 <i class="bx bx-code-alt button__icon"></i>Live page
               </a>
-              <a href="https://github.com/Aya-Ogihara/myFilx-client" class="button-outline" target="_blank">
+              <a
+                href="https://github.com/Aya-Ogihara/myFilx-client"
+                class="button-outline button-outline-flex"
+                target="_blank"
+              >
                 <i class="bx bx-git-branch button__icon"></i>Repository
               </a>
             </div>
@@ -184,26 +200,32 @@
         </div>
 
         <div class="works__container grid">
-          <div>
+          <div class="img-3">
             <img
               src="https://i.ibb.co/brCVCd7/meet-top.jpg"
-              alt="nzWine top page"
+              alt="meet top page"
               class="works__img"
             />
           </div>
           <div class="works__data">
             <h3 class="works__title">Meet</h3>
             <p class="works__description">
-              With our works you can view the route of your order, from our
-              local headquarters to the place where you are. Look for the works
-              now!
+              The application is a serverless, progressive web application (PWA) built with React and developed by using a Test-Driven Development (TDD) approach. <br>The application uses the Google Calendar API to fetch upcoming events.
             </p>
 
             <div class="works__buttons">
-              <a href="https://aya-ogihara.github.io/meet/" class="button" target="_blank">
+              <a
+                href="https://aya-ogihara.github.io/meet/"
+                class="button button-flex"
+                target="_blank"
+              >
                 <i class="bx bx-code-alt button__icon"></i>Live page
               </a>
-              <a href="https://github.com/Aya-Ogihara/meet" class="button-outline" target="_blank">
+              <a
+                href="https://github.com/Aya-Ogihara/meet"
+                class="button-outline button-outline-flex"
+                target="_blank"
+              >
                 <i class="bx bx-git-branch button__icon"></i>Repository
               </a>
             </div>
@@ -214,25 +236,51 @@
       <!--=============== CONTACT ===============-->
       <section class="contact section container" id="contact">
         <div class="contact__container grid">
-            <h2 class="section__title-center">
-              Contact
-            </h2>
-            <p class="contact__description">
-              Feel free to contact me and I will respond within 24 hours
-            </p>
-            <form action="#" method="post" class="contact__form grid">
-              <label class="form__label" for="name">Name<span class="from__label-required">*</span></label>
-              <input type="text" id="name" class="contact__field form__input" placeholder="Please enter Your Name" required>
-        
-              <label class="form__label" for="email">Email<span class="from__label-required">*</span></label>
-              <input type="email" id="email" class="contact__field form__input" placeholder="aya.ogihara@contact.com" required>
-        
-              <label class="form__label" for="message">Message<span class="from__label-required">*</span></label>
-              <textarea maxlength="240" id="message" class="contact__field form__text" required></textarea>
-        
-              <input type="submit" value="Send message" id="submit-btn" class="button button-submit">
-            </form>
-          </div>
+          <h2 class="section__title-center">Contact</h2>
+          <p class="contact__description">
+            Feel free to contact me and I will respond within 24 hours
+          </p>
+          <form action="#" method="post" class="contact__form grid">
+            <label class="form__label" for="name"
+              >Name<span class="form__label-required">*</span></label
+            >
+            <input
+              type="text"
+              id="name"
+              class="contact__field form__input"
+              placeholder="Please enter Your Name"
+              required
+            />
+
+            <label class="form__label" for="email"
+              >Email<span class="form__label-required">*</span></label
+            >
+            <input
+              type="email"
+              id="email"
+              class="contact__field form__input"
+              placeholder="example@mail.com"
+              required
+            />
+
+            <label class="form__label" for="message"
+              >Message<span class="form__label-required">*</span></label
+            >
+            <textarea
+              maxlength="1000"
+              id="message"
+              class="contact__field form__text"
+              required
+            ></textarea>
+
+            <input
+              type="submit"
+              value="Send message"
+              id="submit-btn"
+              class="button button-submit"
+            />
+          </form>
+        </div>
       </section>
     </main>
 
@@ -258,8 +306,9 @@
           ><i class="bx bxl-linkedin"></i
         ></a>
       </div>
-    </div>
-      <p class="footer__copy">Copyright &#169; 2022 Aya Ogihara. All right reserved</p>
+      <p class="footer__copy">
+        Copyright &#169; 2022 Aya Ogihara. All right reserved
+      </p>
     </footer>
 
     <!--=============== SCROLL UP ===============-->

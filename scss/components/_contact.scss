@@ -8,14 +8,27 @@
 
   &__form {
     gap: 0.5rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
   }
 
   &__field {
     margin-bottom: var(--mb-1-5);
-    padding: 1rem 0.5rem;
+    padding: 0.5rem;
     font-size: var(--normal-font-size);
     font-family: var(--body-font);
+    border: 1px solid var(--text-color);
+    border-radius: 0.25rem;
+  }
+}
+
+.form {
+  &__label-required {
+    color: #fd2626;
+  }
+
+  &__text {
+    height: 180px;
+    resize: none;
   }
 }

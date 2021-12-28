@@ -17,6 +17,7 @@
   align-items: center;
 
   &__logo {
+    cursor: pointer;
     width: 100px;
   }
 
@@ -64,18 +65,19 @@
 
 /* Active link */
 .active-link {
-  position: relative;
+  // position: relative;
 
-  &::before {
-    content: '';
-    position: absolute;
-    bottom: -.75rem;
-    left: 45%;
-    width: 5px;
-    height: 5px;
-    background-color: var(--title-color);
-    border-radius: 50%;
-  }
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   bottom: -.75rem;
+  //   left: 45%;
+  //   width: 5px;
+  //   height: 5px;
+  //   background-color: var(--title-color);
+  //   border-radius: 50%;
+  // }
+  color: var(--first-color);
 }
 
 /* Change background header */

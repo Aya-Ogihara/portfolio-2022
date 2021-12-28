@@ -7,14 +7,14 @@
 
   /*========== Colors ==========*/
   --first-color: #1F5A78;
-  --first-color-light: #287196;
+  --first-color-light: #2d87b4;
   --first-color-lighten: #a2e0ff;
   --title-color: #252728;
   --text-color: #889094;
   --body-color: #fff;
   --container-color: #fff;
   
-
+  
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
 
@@ -27,7 +27,7 @@
 
   // Responsive typography
   @media screen and (min-width: 968px){
-    --biggest-font-size: 3rem;
+    --biggest-font-size: 2.75rem;
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
