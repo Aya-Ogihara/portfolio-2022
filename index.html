@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <!--=============== BOXICONS ===============-->
     <link
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
@@ -18,20 +18,198 @@
   </head>
   <body>
     <!--=============== HEADER ===============-->
-    <header class="header" id="header"></header>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"><img src="/img/logo.png" alt="logo" /></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link">Works</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
 
     <main class="main">
       <!--=============== HOME ===============-->
-      <section class="home section" id="home"></section>
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img class="home__img" src="/img/home.jpg" alt="profile photo" />
+          <div class="home__data">
+            <h1 class="home__title">
+              Design focused <br />
+              Frontend Engineer
+            </h1>
+            <p class="home__description">
+              I enjoy keeping up to date with the evolving changes in the world
+              of Frontend Development.
+            </p>
+            <a href="#works" class="button home__button">Check my work</a>
+          </div>
+        </div>
+      </section>
 
       <!--=============== ABOUT ===============-->
-      <section class="about section container" id="about"></section>
+      <section class="about section container" id="about">
+        <div class="about__container grid">
+          <div class="about__content">
+            <h2 class="section__title-center">About me</h2>
+            <p class="about__description">
+              Hello, I am Aya Ogihara. <br />
+              I am a front-end developer with a background in customer service.
+              I'm passionate about bringing both the technical and visual
+              aspects of digital products to life, and I enjoy keeping up to
+              date with the continuous changes in the world of technology.<br />
+              I take a highly methodical approach to my work, gathering data,
+              analysing, making judgments and decisions about the way forward
+              for problem-solving or further improvement.<br />
+              I consider myself an advocate for change with an open-minded to
+              ideas for further growth, I am also excellent at collaborating
+              with stakeholders, and clients and designers and enjoy working in
+              a highly collaborative and supportive work environment.
+            </p>
+          </div>
+          <div class="about__content">
+            <div>
+              <a href="#" class="button about__cv">View my CV</a>
+            </div>
+            <h3 class="about__subtitle">Find me on</h3>
+            <div class="about__social">
+              <a
+                href="https://github.com/Aya-Ogihara"
+                target="_blank"
+                class="about__social-link"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="https://twitter.com/aya_ogihara"
+                target="_blank"
+                class="about__social-link"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/aya-ogihara/"
+                target="_blank"
+                class="about__social-link"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--=============== SKILLS ===============-->
-      <section class="skills section container"></section>
+      <section class="skills">
+        <div class="container skills__container grid">
+          <i class="bx bxl-html5 skills__icon"></i>
+          <i class="bx bxl-html5 skills__icon"></i>
+          <i class="bx bxl-html5 skills__icon"></i>
+          <i class="bx bxl-html5 skills__icon"></i>
+          <i class="bx bxl-html5 skills__icon"></i>
+          <i class="bx bxl-html5 skills__icon"></i>
+          <i class="bx bxl-html5 skills__icon"></i>
+          <i class="bx bxl-html5 skills__icon"></i>
+        </div>
+      </section>
 
       <!--=============== WORKS ===============-->
-      <section class="works section container" id="services"></section>
+      <section class="works section container" id="works">
+        <h2 class="section__title-center">My Works</h2>
+        <div class="works__container grid">
+          <div>
+            <img
+              src="/img/nzwine.png"
+              alt="nzWine top page"
+              class="works__img"
+            />
+          </div>
+          <div class="works__data">
+            <h3 class="works__title">nzWine</h3>
+            <p class="works__description">
+              With our works you can view the route of your order, from our
+              local headquarters to the place where you are. Look for the works
+              now!
+            </p>
+
+            <div class="works__buttons">
+              <a href="#" class="button">
+                <i class="bx bx-code-alt button__icon"></i>Live page
+              </a>
+              <a href="#" class="button-outline">
+                <i class="bx bx-git-branch button__icon"></i>Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="works__container grid">
+          <div>
+            <img
+              src="/img/myflix.png"
+              alt="my flix top page"
+              class="works__img"
+            />
+          </div>
+          <div class="works__data">
+            <h3 class="works__title">myFlix</h3>
+            <p class="works__description">
+              With our works you can view the route of your order, from our
+              local headquarters to the place where you are. Look for the works
+              now!
+            </p>
+
+            <div class="works__buttons">
+              <a href="#" class="button">
+                <i class="bx bx-code-alt button__icon"></i>Live page
+              </a>
+              <a href="#" class="button-outline">
+                <i class="bx bx-git-branch button__icon"></i>Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="works__container grid">
+          <div>
+            <img
+              src="https://i.ibb.co/brCVCd7/meet-top.jpg"
+              alt="nzWine top page"
+              class="works__img"
+            />
+          </div>
+          <div class="works__data">
+            <h3 class="works__title">Meet</h3>
+            <p class="works__description">
+              With our works you can view the route of your order, from our
+              local headquarters to the place where you are. Look for the works
+              now!
+            </p>
+
+            <div class="works__buttons">
+              <a href="#" class="button">
+                <i class="bx bx-code-alt button__icon"></i>Live page
+              </a>
+              <a href="#" class="button-outline">
+                <i class="bx bx-git-branch button__icon"></i>Repository
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--=============== CONTACT ===============-->
       <section class="contact section container" id="contact"></section>
@@ -43,6 +221,6 @@
     <!--=============== SCROLL UP ===============-->
 
     <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>

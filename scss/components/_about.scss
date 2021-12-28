@@ -1,1 +1,38 @@
 /*=============== ABOUT ===============*/
+.about {
+  margin-bottom: var(--mb-2);
+  
+  &__container {
+    gap: 2.5rem;
+  }
+
+  &__content {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  &__description {
+    text-align: initial;
+  }
+
+  &__cv {
+    margin-bottom: var(--mb-2);
+  }
+
+  &__subtitle {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+
+    &-link {
+      font-size: 1.5rem;
+      color: var(--title-color);
+    }
+  }
+}
