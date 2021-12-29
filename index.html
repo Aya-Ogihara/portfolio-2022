@@ -84,9 +84,9 @@
             </p>
           </div>
           <div class="about__content">
-            <div>
+            <!-- <div>
               <a href="#" class="button-outline about__cv">View my CV</a>
-            </div>
+            </div> -->
             <h3 class="about__subtitle">Find me on</h3>
             <div class="about__social">
               <a
@@ -140,9 +140,7 @@
           <div class="works__data">
             <h3 class="works__title">nzWine</h3>
             <p class="works__description">
-              With our works you can view the route of your order, from our
-              local headquarters to the place where you are. Look for the works
-              now!
+              The application is a full-stack web application project adapting MERN (MongoDB, Express, React, and Node.js) stack, and it provide users with access to information about different New Zealand wine regions and wines.
             </p>
 
             <div class="works__buttons">
@@ -175,9 +173,8 @@
           <div class="works__data">
             <h3 class="works__title">myFlix</h3>
             <p class="works__description">
-              With our works you can view the route of your order, from our
-              local headquarters to the place where you are. Look for the works
-              now!
+              The application was built by using full-stack JavaScript technologies with authentication and authorization feature<br>
+              It provides movies information (title, genre, director, description, etc.…) and allows users to register, update their profile and add/delete their favourite movie lists.
             </p>
 
             <div class="works__buttons">
@@ -240,13 +237,14 @@
           <p class="contact__description">
             Feel free to contact me and I will respond within 24 hours
           </p>
-          <form action="#" method="post" class="contact__form grid">
+          <form name="contact" method="POST" data-netlify="true" class="contact__form grid">
             <label class="form__label" for="name"
               >Name<span class="form__label-required">*</span></label
             >
             <input
               type="text"
               id="name"
+              name="name"
               class="contact__field form__input"
               placeholder="Please enter Your Name"
               required
@@ -258,6 +256,7 @@
             <input
               type="email"
               id="email"
+              name="email"
               class="contact__field form__input"
               placeholder="example@mail.com"
               required
@@ -269,10 +268,11 @@
             <textarea
               maxlength="1000"
               id="message"
+              name="message"
               class="contact__field form__text"
               required
             ></textarea>
-
+            <div data-netlify-recaptcha="true"></div>
             <input
               type="submit"
               value="Send message"
