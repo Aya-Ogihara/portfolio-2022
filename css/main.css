@@ -413,6 +413,10 @@ img {
   resize: none;
 }
 
+.form__verification {
+  margin-bottom: var(--mb-1-5);
+}
+
 /*=============== FOOTER ===============*/
 .footer {
   background-color: var(--first-color-lighten);
