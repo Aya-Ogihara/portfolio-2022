@@ -395,6 +395,9 @@ img {
   gap: 0.5rem;
   padding-right: 10%;
   padding-left: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact__field {
