@@ -4,13 +4,14 @@
 
   &__description {
     text-align: center;
+    margin-bottom: var(--mb-1-5);
   }
 
   &__form {
     gap: 0.5rem;
     padding-right: 10%;
     padding-left: 10%;
-    justify-content: center;
+    //justify-content: center;
   }
 
   &__field {
