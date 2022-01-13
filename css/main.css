@@ -394,6 +394,9 @@ img {
   gap: 0.5rem;
   padding-right: 10%;
   padding-left: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact__field {
@@ -518,6 +521,11 @@ img {
   .home__data,
   .works__description {
     text-align: initial;
+  }
+  .contact__form {
+    -webkit-box-pack: normal;
+        -ms-flex-pack: normal;
+            justify-content: normal;
   }
 }
 
