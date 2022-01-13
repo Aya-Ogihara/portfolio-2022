@@ -388,15 +388,13 @@ img {
 
 .contact__description {
   text-align: center;
+  margin-bottom: var(--mb-1-5);
 }
 
 .contact__form {
   gap: 0.5rem;
   padding-right: 10%;
   padding-left: 10%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .contact__field {
