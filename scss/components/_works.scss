@@ -15,7 +15,13 @@
 
   &__title {
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-0-5);
+  }
+
+  &__subtitle {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-0-75);
   }
 
   &__description {
