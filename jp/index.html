@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-S7FLJ79E1B"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-S7FLJ79E1B');
+    </script>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favi.png" />
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <title>ポートフォリオ | 荻原 彩</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"><img src="/img/logo.png" alt="logo" /></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main jp-main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img
+            class="home__img"
+            src="https://res.cloudinary.com/yaponka/image/upload/w_400,c_scale/portfolio/home.jpg"
+            alt="profile photo"
+          />
+          <div class="home__data">
+            <h1 class="home__title">
+              Crafting websites <br />
+              that reflect your world with care.
+            </h1>
+            <p class="home__description">
+              「世界観」をていねいに形にするWebサイトを。
+            </p>
+            <a href="#works" class="button home__button">プロジェクトを見る</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section container" id="about">
+        <div class="about__container grid">
+          <div class="about__content">
+            <h2 class="section__title-center">About Me</h2>
+            <p class="about__description">
+              こんにちは、荻原 彩 (おぎはら あや) と申します。<br />
+
+              幼い頃から「手を動かして形にする」ことに夢中で、服飾と和裁を学んだのが私の最初のキャリアでした。<br />
+
+              その後ワーキングホリデーでオーストラリアへ渡航。
+              現地で出会ったITの学びとWebの世界に心を動かされ、オンラインスクールでWebデザインとフロントエンド技術を学びました。
+              <br />
+              現在はニュージーランドのWeb制作会社でWebデベロッパーとして働いており、
+              WordPress・Webflow・Shopifyを使ったサイトの設計から構築・保守運用までを担当しながら、GSAPを用いたアニメーション実装や、GA4
+              / GTM / GSC / Looker Studio
+              などを活用したマーケティング施策にも対応しています。<br />
+              <br />
+              Web制作は「ただ形をつくるだけではなく、想いや世界観を丁寧に表現すること」だと気づいてから、ますますこの仕事に惹かれるようになりました。<br />
+              私のキャリアは、決して王道ではないかもしれません。
+              それでも、手を動かしながら何度も試行錯誤を重ねてきた経験は、今の私の力になっています。<br />
+              <br />
+              サイト制作に加えて、開発フローの見直しや作業の見える化、CRMの導入支援やツール整備など、業務改善にも積極的に関わってきました。
+              こうした姿勢や取り組みを評価していただき、信頼につながっていることが何より嬉しく思っています。<br />
+              <br />
+              Webサイトは、単なる情報の羅列ではなく、その中に込められた想いや空気感、「らしさ」を伝えるものだと私は考えています。
+              目には見えにくい価値を丁寧にすくい取り、きちんと届くかたちにすること。<br />
+              それが、私が大切にしているWeb制作のあり方です。
+            </p>
+          </div>
+          <!-- <div class="about__content">
+            <div>
+              <a
+                href="docs/AyaOgihara_CV.pdf"
+                class="button-outline about__cv"
+                target="_blank"
+                >View my CV</a
+              >
+            </div>
+            <h3 class="about__subtitle">Find me on</h3>
+            <div class="about__social">
+              <a
+                href="https://github.com/Aya-Ogihara"
+                target="_blank"
+                class="about__social-link"
+                aria-label="GitHub icon"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="https://twitter.com/aya_ogihara"
+                target="_blank"
+                class="about__social-link"
+                aria-label="Twitter icon"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/aya-ogihara/"
+                target="_blank"
+                class="about__social-link"
+                aria-label="LinkedIn icon"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills">
+        <div class="container skills__container grid">
+          <i class="bx bxl-wordpress skills__icon"></i>
+          <i class="bx bxl-shopify skills__icon"></i>
+          <i class="bx bxl-figma skills__icon"></i>
+          <i class="bx bxl-react skills__icon"></i>
+          <i class="bx bxl-html5 skills__icon"></i>
+          <i class="bx bxl-css3 skills__icon"></i>
+          <i class="bx bxl-javascript skills__icon"></i>
+          <i class="bx bxl-php skills__icon"></i>
+        </div>
+      </section>
+
+      <!--=============== PROJECTS ===============-->
+      <section class="works section container" id="works">
+        <h2 class="section__title-center">Projects</h2>
+        <!-- Project-1 -->
+        <div class="works__container grid">
+          <div class="img-1">
+            <img
+              src="https://forge.co.nz/wp-content/uploads/FORGE-BBHTC-website.png"
+              alt="BBHTC top page"
+              class="works__img"
+            />
+          </div>
+          <div class="works__data">
+            <h3 class="works__title">政府系リサーチプロジェクト</h3>
+            <h4 class="works__subtitle">WordPress構築</h4>
+            <p class="works__description">
+              複雑な情報構造とCMSの運用性を両立させるため、カスタム投稿とACFを活用したWordPressサイトを構築。SEOやページ速度にも配慮し、柔軟かつ堅牢な実装を担当しました。
+              本プロジェクトは、Designers Institute of New Zealand<b
+                >「Best Design Awards 2024」ファイナリスト</b
+              >にも選出されました。<br />
+              使用技術: WordPress/ PHP / ACF / SEO対策 <br />
+            </p>
+
+            <div class="works__buttons">
+              <a
+                href="https://www.buildingbetter.nz/index.html"
+                class="button button-flex"
+                target="_blank"
+              >
+                <i class="bx bxl-wordpress button__icon"></i>ウェブサイト
+              </a>
+              <a
+                href="https://bestawards.co.nz/toitanga/toitanga/forge-creative/building-better-homes-towns-and-cities-bbhtc/"
+                class="button-outline button-outline-flex"
+                target="_blank"
+              >
+                <i class="bx bx-award button__icon"></i>デザインアワードページ
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Project-1 end -->
+        <!-- Project-2 -->
+        <div class="works__container grid">
+          <div class="img-2">
+            <iframe
+              width="420"
+              height="330"
+              src="https://www.youtube.com/embed/1cVgZ6Gmjv8?si=SLP_J9tYDdcztOU-"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="works__data">
+            <h3 class="works__title">政府系リサーチプロジェクト</h3>
+            <h4 class="works__subtitle">データビジュアライゼーション</h4>
+            <p class="works__description">
+              GSAPを用いたアニメーション演出と、D3.jsにてデータの可視化を実装しました。高度な視覚体験を通じて、リサーチ結果の理解促進に貢献する目的です。<br />
+              使用技術: GSAP / D3.js / JavaScript
+            </p>
+
+            <div class="works__buttons">
+              <a
+                href="https://www.buildingbetter.nz/heritage/index.html"
+                class="button button-flex"
+                target="_blank"
+              >
+                <i class="bx bx-code-alt button__icon"></i>GSAP実装ページ</a
+              >
+              <a
+                href="https://www.buildingbetter.nz/a-chronology-of-maori-housing/index.html"
+                class="button-outline button-outline-flex"
+                target="_blank"
+              >
+                <i class="bx bx-code-alt button__icon"></i>D3.js実装ページ
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Project-2 end-->
+        <!-- Project-3 -->
+        <div class="works__container grid">
+          <div class="img-3">
+            <img
+              src="https://forge.co.nz/wp-content/uploads/FORGE-Kalmar-homepage.jpg"
+              alt="Kalmar top page"
+              class="works__img"
+            />
+          </div>
+          <div class="works__data">
+            <h3 class="works__title">建築会社コーポレートサイト</h3>
+            <h4 class="works__subtitle">WordPress構築</h4>
+            <p class="works__description">
+              中小建築企業の信頼感と実績を伝えるサイトをWordPressにて実装し、Slick
+              Sliderを用いたビジュアル要素も追加しました。 <br />
+              使用技術: WordPress / PHP / Slick Slider / HTML・CSS
+            </p>
+
+            <div class="works__buttons">
+              <a
+                href="https://kalmar.co.nz/"
+                class="button button-flex"
+                target="_blank"
+              >
+                <i class="bx bxl-wordpress button__icon"></i>ウェブサイト
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Project-3 end -->
+        <!-- Project-4 -->
+        <div class="works__container grid">
+          <div class="img-4">
+            <img
+              src="https://res.cloudinary.com/yaponka/image/upload/v1745554041/YunoTea-hero.jpg"
+              alt="YunoTea top page"
+              class="works__img"
+            />
+          </div>
+          <div class="works__data">
+            <h3 class="works__title">日本茶ブランド</h3>
+            <h4 class="works__subtitle">デザイン・Shopify構築</h4>
+            <p class="works__description">
+              ブランド立ち上げから商品構成・コピー・デザインまで一貫して担当しました。ShopifyのディフォルトであるDawnテーマをベースに構築し、オリジナルロゴ・写真・文章を含めて世界観を表現しました。<br />
+              使用技術: Shopify / Liquid / Dawnテーマカスタマイズ /
+              UIライティング
+            </p>
+
+            <div class="works__buttons">
+              <a
+                href="https://yunotea.myshopify.com/"
+                class="button button-flex"
+                target="_blank"
+              >
+                <i class="bx bxl-shopify button__icon"></i>ショップ</a
+              >
+              <a
+                href="https://www.figma.com/design/AUoDkuozk0r59md9brkygA/YunoTea?node-id=0-1&t=GdBsUMbjvVsbb1FM-1"
+                class="button-outline button-outline-flex"
+                target="_blank"
+              >
+                <i class="bx bxl-figma button__icon"></i>Figmaファイル
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Project-4 end -->
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section container" id="contact">
+        <div class="contact__container">
+          <h2 class="section__title-center">Contact</h2>
+          <p class="contact__description">
+            24時間以内に返信いたしますので、お気軽にご連絡ください。
+          </p>
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            class="contact__form grid"
+          >
+            <label class="form__label" for="name"
+              >お名前<span class="form__label-required">*</span></label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="contact__field form__input"
+              placeholder="お名前をご入力ください"
+              required
+            />
+
+            <label class="form__label" for="email"
+              >メールアドレス<span class="form__label-required">*</span></label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="contact__field form__input"
+              placeholder="example@mail.com"
+              required
+            />
+
+            <label class="form__label" for="message"
+              >メッセージ<span class="form__label-required">*</span></label
+            >
+            <textarea
+              maxlength="1000"
+              id="message"
+              name="message"
+              class="contact__field form__text"
+              required
+            ></textarea>
+            <div data-netlify-recaptcha="true" class="form__verification"></div>
+            <input
+              type="submit"
+              value="送信"
+              id="submit-btn"
+              class="button button-submit"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__social">
+        <a
+          href="https://github.com/Aya-Ogihara"
+          target="_blank"
+          class="footer__social-link"
+          aria-label="GitHub icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://twitter.com/aya_ogihara"
+          target="_blank"
+          class="footer__social-link"
+          aria-label="Twitter icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/aya-ogihara/"
+          target="_blank"
+          class="footer__social-link"
+          aria-label="LinkedIn icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+      </div>
+      <p class="footer__copy">
+        Copyright &#169; 2025 Aya Ogihara. All right reserved
+      </p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up" aria-label="scroll-up button">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+    <!--=============== MAIN JS ===============-->
+    <script src="/js/min.js"></script>
+  </body>
+</html>
